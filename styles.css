@@ -1,0 +1,220 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poiret+One&display=swap');
+body {
+    font-family: 'Nunito', Courier, monospace;
+    background: #53a443;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Feather Bold";
+    font-size: 40px;
+    margin: 2px 0px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 7px;
+    background: #63c450;
+    color: white;
+    border-radius: 8px;
+    font-family: "Nunito";
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 110px;
+}
+
+header {
+    border-radius: 8px;
+    max-height: 280px;
+    background: #63c450;
+    color: white;
+    padding: 5px 0px;
+}
+
+.progress-bar {
+    background: #ccc;
+    height: 10px;
+    border-radius: 8px;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.progress {
+    background: #fffb03;
+    height: 100%;
+}
+
+#task-area {
+    margin: 20px 0;
+}
+
+button {
+    font-family: "Nunito";
+    margin: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #63c450;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #02860b;
+}
+
+.hint{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #02860b;
+    border: 1px solid #02860b;
+    cursor: pointer;
+}
+
+.hint:hover{
+    background: #efefef;
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+a:hover{
+    background-color: #02860b;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .color-box {
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .color-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e6e5e5;
+  }
+
+  .animal-box {
+    width: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .animal-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .animal-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .hobby-box {
+      width: 150px;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .hobby-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .hobby-name {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .month-box {
+    width: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .month-box img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .month-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .phrase-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .phrase-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .phrase-box h2 {
+    color: #53a443;
+    font-size: 20px;
+  }
+  .phrase-box p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #7f8c8d;
+  }
+
