@@ -165,6 +165,7 @@ function endLevel() {
     } else {
         taskArea.innerHTML = `
             <h2>Level ${currentLevel} Complete!</h2>
+            <h3>You're on fire!🔥</h3>
             <p>Your Score: ${score}/10</p>
             ${
                 currentLevel < 6
