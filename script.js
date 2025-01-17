@@ -1,6 +1,7 @@
 let currentLevel = 1;
 let currentQuestion = 0;
 let score = 0;
+let scoreSum = 0;
 
 const levels = {
     1: [
@@ -85,7 +86,7 @@ const levelPages = {
     3: 'animals.html',
     4: 'colours.html',
     5: 'hobbies.html',
-    6: 'colours.html'
+    6: 'hobbies.html'
 };
 
 
@@ -163,6 +164,7 @@ function endLevel() {
             <p>Learning takes time and practice makes perfect! </br> Uno believes you can do better! </br> Please revisit <a href="${relatedPage}">this page</a> and try again.</p>
         `;
     } else {
+        scoreSum += score;
         taskArea.innerHTML = `
             <h2>Level ${currentLevel} Complete!</h2>
             <h3>You're on fire!🔥</h3>

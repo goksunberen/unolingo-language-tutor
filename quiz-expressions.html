@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/logo.jpeg">
+    <title>Unolingo - Language Tutor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Unolingo</h1>
+            <img src="./images/logo.jpeg" alt="unolingo logo">
+            <div class="progress-bar">
+                <div class="progress" id="progress" style="width: 0%;"></div>
+            </div>
+            <p>Question: <span id="question-number">1</span>/3</p>
+        </header>
+        <main>
+            <section id="task-area">
+                <!-- Questions will be dynamically loaded -->
+            </section>
+            <section id="feedback-area" style="display:none;">
+                <p id="feedback"></p>
+                <button onclick="nextTask()">Next</button>
+            </section>
+        </main>
+        <footer>
+            <p>Score: <span id="score">0</span></p>
+        </footer>
+    </div>
+    <script src="script-quiz-exp.js"></script>
+</body>
+</html>
